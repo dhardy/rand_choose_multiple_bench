@@ -7,7 +7,7 @@ authors = ["Jonas Sicking <jonas@sicking.cc>"]
 rand = "0.5.*"
 
 [[bin]]
-name = "vec"
+name = "iter"
 path = "src/time_iter.rs"
 
 [[bin]]
