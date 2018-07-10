@@ -38,6 +38,7 @@ fn main() {
                     let res = lambda(length, amount);
                     verify(res, length, amount);
                     let dur = start.elapsed();
+                    //verify(res, length, amount);
                     samples.push(nanos(&dur));
                     let time = nanos(&bench_start.elapsed());
                     if (samples.len() >= 10 && time > 1_000_000_000) || time > 10_000_000_000 {
@@ -71,7 +72,6 @@ fn main() {
     t!(pitdicker, 0, 0);
 }
 
-#[allow(unreachable_code)]
 fn verify(res: SampleResult, length: usize, amount: usize) {
     //let mut hash = HashSet::with_capacity(amount);
     let mut sum = 0;

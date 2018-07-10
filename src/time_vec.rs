@@ -36,8 +36,9 @@ fn main() {
                 loop {
                     let start = Instant::now();
                     let res = lambda(length, amount);
-                    let dur = start.elapsed();
                     verify(res, length, amount);
+                    let dur = start.elapsed();
+                    //verify(res, length, amount);
                     samples.push(nanos(&dur));
                     let time = nanos(&bench_start.elapsed());
                     if (samples.len() >= 10 && time > 1_000_000_000) || time > 10_000_000_000 {
@@ -73,16 +74,16 @@ fn main() {
     t!(pitdicker, 0, 0);
 }
 
-#[allow(unreachable_code)]
 fn verify(res: Vec<usize>, length: usize, amount: usize) {
-    assert_eq!(res.len(), amount);
-    assert!(*res.last().unwrap() < length);
-    return;
-    let mut hash = HashSet::with_capacity(amount);
+    //let mut hash = HashSet::with_capacity(amount);
+    let mut sum = 0;
     for val in res {
-        assert!(val < length);
-        assert!(hash.insert(val));
+        sum += val;
+        //assert!(val < length);
+        //assert!(hash.insert(val));
     }
+    //assert_eq!(hash.len(), amount);
+    assert!(sum < length * amount);
 }
 
 fn nanos(dur: &Duration) -> u64 {
