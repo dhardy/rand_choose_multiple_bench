@@ -10,7 +10,7 @@ fn main() {
         if max_amount == 0 {
             max_amount = 1_000_000;
         }
-        for length in vec![10, 100, 500, 1000, 1_000_000, 1_000_000_000/**/] {
+        for length in vec![10, 100, 500, 1000, 1_000_000, 1_000_000_000] {
             if max_length != 0 && length > max_length {
                 continue;
             }
@@ -51,7 +51,9 @@ fn main() {
         }
     }
 
+    println!("length, amount, time, algorithm, discard");
     let r = &mut StdRng::from_entropy();
+
     macro_rules! t {
         ($f:ident, $max_amount:expr, $max_length:expr) => {
             do_test(|length, amount| $f(r, length, amount), stringify!($f), $max_amount, $max_length);
