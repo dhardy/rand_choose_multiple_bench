@@ -1,0 +1,68 @@
+---
+title: "Sampling - Vec"
+author: "Jonas"
+date: "7/10/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+require(ggplot2)
+
+```
+
+```{r readdata}
+vec <- read.csv('vec.txt', header=TRUE, as.is=TRUE)
+
+vec$algorithm <- gsub(" ","",vec$algorithm)
+
+cat_mapping <- data.frame(unique(vec$algorithm), c('random', 'random', 'sorted', 'random', 'sorted', 'random', 'biased', 'biased', 'sorted', 'biased', 'sorted', 'random', 'biased', 'sorted'), c(
+"#eeee2a",
+"#ff91c4",
+"#ff24ff",
+"#ff943e",
+"#c2b802",
+"#6b00b9",
+"#fa0000",
+"#6d7cff",
+"#16c0c9",
+"#2a7d4c",
+"#25ff18",
+"#000000",
+"#bcbcbc",
+"#439ad6"))  
+names(cat_mapping) <- c('algorithm', 'category', 'color')
+
+vec <- merge(vec, cat_mapping)
+
+```
+
+```{r fig.height=8, fig.width=10}
+
+for (lengthShort in c(10, 100, 500, 1000, 1000000, 1000000000)){
+  print(lengthShort)
+  p = ggplot(subset(vec, length == lengthShort), aes(x=amount, y=time, group=algorithm, color=algorithm)) + facet_wrap(~length, scales="free_x", ncol=1)+ scale_x_continuous(trans='log10') + scale_y_continuous(trans='log10') + geom_line(size=1) + theme_bw() + coord_cartesian(ylim=c(1,10000)) + scale_color_manual(values = as.vector(subset(cat_mapping,  algorithm %in% unique(subset(vec,  length == lengthShort)$algorithm))$color))
+  
+  print(p)
+}
+```
+
+```{r fig.height=8, fig.width=10}
+
+for (lengthShort in c(10, 100, 500, 1000, 1000000, 1000000000)){
+print(lengthShort)
+  p = ggplot(subset(vec, length == lengthShort & category=="random"), aes(x=amount, y=time, group=algorithm, color=algorithm)) + facet_wrap(~length, scales="free_x", ncol=1)+ scale_x_continuous(trans='log10') + scale_y_continuous(trans='log10') + geom_line(size=1) + theme_bw()+ coord_cartesian(ylim=c(1,10000)) + scale_color_manual(values = as.vector(subset(cat_mapping,  algorithm %in% unique(subset(vec,  length == lengthShort & category =="random")$algorithm))$color))
+  
+  print(p)
+}
+
+for (lengthShort in c(10, 100, 500, 1000, 1000000, 1000000000)){
+print(lengthShort)
+  p = ggplot(subset(vec, length == lengthShort & category=="sorted"), aes(x=amount, y=time, group=algorithm, color=algorithm)) + facet_wrap(~length, scales="free_x", ncol=1)+ scale_x_continuous(trans='log10') + scale_y_continuous(trans='log10') + geom_line(size=1) + theme_bw()+ coord_cartesian(ylim=c(1,10000)) + scale_color_manual(values = as.vector(subset(cat_mapping,  algorithm %in% unique(subset(vec,  length == lengthShort & category =="sorted")$algorithm))$color))
+  
+  
+  print(p)
+}
+
+```
+

@@ -1,0 +1,987 @@
+length, amount, time, algorithm, discard
+        10,       1,     113.72,                        cache_hash, 1
+        10,       2,      76.39,                        cache_hash, 1
+        10,       5,      62.17,                        cache_hash, 1
+        10,       9,      85.59,                        cache_hash, 1
+        10,      10,     109.85,                        cache_hash, 1
+       100,       1,     114.76,                        cache_hash, 1
+       100,       2,      73.52,                        cache_hash, 1
+       100,       5,      50.96,                        cache_hash, 1
+       100,      10,      44.05,                        cache_hash, 1
+       100,      20,      47.07,                        cache_hash, 1
+       100,      50,      59.19,                        cache_hash, 1
+       100,      90,      97.77,                        cache_hash, 1
+       100,      95,     118.85,                        cache_hash, 1
+       100,     100,     199.05,                        cache_hash, 1
+       500,       1,     110.60,                        cache_hash, 1
+       500,       2,      73.96,                        cache_hash, 1
+       500,       5,      48.43,                        cache_hash, 1
+       500,      10,      40.78,                        cache_hash, 1
+       500,      20,      41.19,                        cache_hash, 1
+       500,      25,      43.22,                        cache_hash, 1
+       500,      50,      44.35,                        cache_hash, 1
+       500,     100,      46.29,                        cache_hash, 1
+       500,     200,      52.83,                        cache_hash, 1
+       500,     250,      51.81,                        cache_hash, 1
+       500,     450,     108.04,                        cache_hash, 1
+       500,     475,     107.64,                        cache_hash, 1
+       500,     500,     228.10,                        cache_hash, 1
+      1000,       1,     109.85,                        cache_hash, 1
+      1000,       2,      70.54,                        cache_hash, 1
+      1000,       5,      48.19,                        cache_hash, 1
+      1000,      10,      40.35,                        cache_hash, 1
+      1000,      20,      40.69,                        cache_hash, 1
+      1000,      50,      43.19,                        cache_hash, 1
+      1000,     100,      43.90,                        cache_hash, 1
+      1000,     200,      46.09,                        cache_hash, 1
+      1000,     500,      51.16,                        cache_hash, 1
+      1000,     900,     108.47,                        cache_hash, 1
+      1000,     950,     108.59,                        cache_hash, 1
+      1000,    1000,     251.44,                        cache_hash, 1
+   1000000,       1,     109.74,                        cache_hash, 1
+   1000000,       2,      69.96,                        cache_hash, 1
+   1000000,       5,      48.05,                        cache_hash, 1
+   1000000,      10,      40.09,                        cache_hash, 1
+   1000000,      20,      40.30,                        cache_hash, 1
+   1000000,      50,      42.07,                        cache_hash, 1
+   1000000,     100,      42.88,                        cache_hash, 1
+   1000000,     200,      41.12,                        cache_hash, 1
+   1000000,     500,      34.07,                        cache_hash, 1
+   1000000,    1000,      34.41,                        cache_hash, 1
+   1000000,   10000,      37.93,                        cache_hash, 1
+   1000000,   20000,      39.80,                        cache_hash, 1
+   1000000,   50000,      46.99,                        cache_hash, 1
+   1000000,  100000,      62.08,                        cache_hash, 1
+   1000000,  200000,      63.56,                        cache_hash, 1
+   1000000,  500000,     194.65,                        cache_hash, 1
+   1000000,  900000,     378.48,                        cache_hash, 3
+   1000000,  950000,     485.57,                        cache_hash, 4
+1000000000,       1,     111.59,                        cache_hash, 1
+1000000000,       2,      70.06,                        cache_hash, 1
+1000000000,       5,      48.06,                        cache_hash, 1
+1000000000,      10,      40.18,                        cache_hash, 1
+1000000000,      20,      40.26,                        cache_hash, 1
+1000000000,      50,      42.09,                        cache_hash, 1
+1000000000,     100,      41.54,                        cache_hash, 1
+1000000000,     200,      40.95,                        cache_hash, 1
+1000000000,     500,      34.12,                        cache_hash, 1
+1000000000,    1000,      34.19,                        cache_hash, 1
+1000000000,   10000,      37.53,                        cache_hash, 1
+1000000000,   20000,      40.25,                        cache_hash, 1
+1000000000,   50000,      47.89,                        cache_hash, 1
+1000000000,  100000,      60.19,                        cache_hash, 1
+1000000000,  200000,      56.25,                        cache_hash, 1
+1000000000,  500000,     139.58,                        cache_hash, 1
+1000000000,  900000,     153.93,                        cache_hash, 1
+1000000000,  950000,     162.45,                        cache_hash, 1
+        10,       1,      57.15,                         cache_vec, 1
+        10,       2,      34.93,                         cache_vec, 1
+        10,       5,      26.65,                         cache_vec, 1
+        10,       9,      42.59,                         cache_vec, 1
+        10,      10,      58.57,                         cache_vec, 1
+       100,       1,      56.73,                         cache_vec, 1
+       100,       2,      33.87,                         cache_vec, 1
+       100,       5,      21.20,                         cache_vec, 1
+       100,      10,      17.43,                         cache_vec, 1
+       100,      20,      18.85,                         cache_vec, 1
+       100,      50,      32.79,                         cache_vec, 1
+       100,      90,      74.14,                         cache_vec, 1
+       100,      95,      91.25,                         cache_vec, 1
+       100,     100,     158.51,                         cache_vec, 1
+       500,       1,      56.71,                         cache_vec, 1
+       500,       2,      34.00,                         cache_vec, 1
+       500,       5,      20.90,                         cache_vec, 1
+       500,      10,      16.45,                         cache_vec, 1
+       500,      20,      15.33,                         cache_vec, 1
+       500,      25,      15.91,                         cache_vec, 1
+       500,      50,      20.45,                         cache_vec, 1
+       500,     100,      31.57,                         cache_vec, 1
+       500,     200,      51.31,                         cache_vec, 1
+       500,     250,      64.55,                         cache_vec, 1
+       500,     450,     156.45,                         cache_vec, 1
+       500,     475,     201.20,                         cache_vec, 1
+       500,     500,     457.03,                         cache_vec, 1
+      1000,       1,      56.95,                         cache_vec, 1
+      1000,       2,      33.79,                         cache_vec, 1
+      1000,       5,      20.98,                         cache_vec, 1
+      1000,      10,      16.35,                         cache_vec, 1
+      1000,      20,      14.88,                         cache_vec, 1
+      1000,      50,      18.99,                         cache_vec, 1
+      1000,     100,      28.66,                         cache_vec, 1
+      1000,     200,      44.53,                         cache_vec, 1
+      1000,     500,      95.13,                         cache_vec, 1
+      1000,     900,     256.13,                         cache_vec, 1
+      1000,     950,     329.52,                         cache_vec, 1
+      1000,    1000,     849.03,                         cache_vec, 1
+   1000000,       1,      56.64,                         cache_vec, 1
+   1000000,       2,      33.78,                         cache_vec, 1
+   1000000,       5,      20.92,                         cache_vec, 1
+   1000000,      10,      16.23,                         cache_vec, 1
+   1000000,      20,      14.32,                         cache_vec, 1
+   1000000,      50,      17.03,                         cache_vec, 1
+   1000000,     100,      23.06,                         cache_vec, 1
+   1000000,     200,      36.37,                         cache_vec, 1
+   1000000,     500,      72.43,                         cache_vec, 1
+   1000000,    1000,     122.68,                         cache_vec, 1
+   1000000,   10000,    1119.00,                         cache_vec, 1
+   1000000,   20000,    2307.79,                         cache_vec, 1
+   1000000,   50000,    6094.60,                         cache_vec, 3
+1000000000,       1,      57.21,                         cache_vec, 1
+1000000000,       2,      33.86,                         cache_vec, 1
+1000000000,       5,      20.84,                         cache_vec, 1
+1000000000,      10,      16.22,                         cache_vec, 1
+1000000000,      20,      14.23,                         cache_vec, 1
+1000000000,      50,      17.04,                         cache_vec, 1
+1000000000,     100,      22.78,                         cache_vec, 1
+1000000000,     200,      35.88,                         cache_vec, 1
+1000000000,     500,      71.98,                         cache_vec, 1
+1000000000,    1000,     122.63,                         cache_vec, 1
+1000000000,   10000,    1115.97,                         cache_vec, 1
+1000000000,   20000,    2241.20,                         cache_vec, 1
+1000000000,   50000,    5884.89,                         cache_vec, 2
+        10,       1,      57.58,                  cache_sorted_vec, 1
+        10,       2,      38.31,                  cache_sorted_vec, 1
+        10,       5,      36.27,                  cache_sorted_vec, 1
+        10,       9,      62.16,                  cache_sorted_vec, 1
+        10,      10,      84.86,                  cache_sorted_vec, 1
+       100,       1,      57.72,                  cache_sorted_vec, 1
+       100,       2,      37.38,                  cache_sorted_vec, 1
+       100,       5,      29.22,                  cache_sorted_vec, 1
+       100,      10,      31.88,                  cache_sorted_vec, 1
+       100,      20,      39.30,                  cache_sorted_vec, 1
+       100,      50,      59.49,                  cache_sorted_vec, 1
+       100,      90,     117.47,                  cache_sorted_vec, 1
+       100,      95,     142.28,                  cache_sorted_vec, 1
+       100,     100,     236.21,                  cache_sorted_vec, 1
+       500,       1,      60.16,                  cache_sorted_vec, 1
+       500,       2,      37.62,                  cache_sorted_vec, 1
+       500,       5,      28.98,                  cache_sorted_vec, 1
+       500,      10,      30.54,                  cache_sorted_vec, 1
+       500,      20,      35.81,                  cache_sorted_vec, 1
+       500,      25,      37.57,                  cache_sorted_vec, 1
+       500,      50,      45.54,                  cache_sorted_vec, 1
+       500,     100,      55.92,                  cache_sorted_vec, 1
+       500,     200,      71.39,                  cache_sorted_vec, 1
+       500,     250,      78.95,                  cache_sorted_vec, 1
+       500,     450,     151.43,                  cache_sorted_vec, 1
+       500,     475,     184.63,                  cache_sorted_vec, 1
+       500,     500,     386.46,                  cache_sorted_vec, 1
+      1000,       1,      57.99,                  cache_sorted_vec, 1
+      1000,       2,      37.30,                  cache_sorted_vec, 1
+      1000,       5,      28.73,                  cache_sorted_vec, 1
+      1000,      10,      30.37,                  cache_sorted_vec, 1
+      1000,      20,      35.46,                  cache_sorted_vec, 1
+      1000,      50,      44.48,                  cache_sorted_vec, 1
+      1000,     100,      52.86,                  cache_sorted_vec, 1
+      1000,     200,      62.58,                  cache_sorted_vec, 1
+      1000,     500,      89.04,                  cache_sorted_vec, 1
+      1000,     900,     169.36,                  cache_sorted_vec, 1
+      1000,     950,     205.62,                  cache_sorted_vec, 1
+      1000,    1000,     459.27,                  cache_sorted_vec, 1
+   1000000,       1,      57.71,                  cache_sorted_vec, 1
+   1000000,       2,      37.19,                  cache_sorted_vec, 1
+   1000000,       5,      28.65,                  cache_sorted_vec, 1
+   1000000,      10,      30.01,                  cache_sorted_vec, 1
+   1000000,      20,      34.74,                  cache_sorted_vec, 1
+   1000000,      50,      44.87,                  cache_sorted_vec, 1
+   1000000,     100,      50.76,                  cache_sorted_vec, 1
+   1000000,     200,      56.29,                  cache_sorted_vec, 1
+   1000000,     500,      66.38,                  cache_sorted_vec, 1
+   1000000,    1000,      78.17,                  cache_sorted_vec, 1
+   1000000,   10000,     294.61,                  cache_sorted_vec, 1
+   1000000,   20000,     587.00,                  cache_sorted_vec, 1
+   1000000,   50000,    1564.46,                  cache_sorted_vec, 1
+   1000000,  100000,    4045.74,                  cache_sorted_vec, 4
+   1000000,  200000,    9159.66,                  cache_sorted_vec, 10
+1000000000,       1,      58.35,                  cache_sorted_vec, 1
+1000000000,       2,      37.63,                  cache_sorted_vec, 1
+1000000000,       5,      28.67,                  cache_sorted_vec, 1
+1000000000,      10,      30.04,                  cache_sorted_vec, 1
+1000000000,      20,      34.84,                  cache_sorted_vec, 1
+1000000000,      50,      43.22,                  cache_sorted_vec, 1
+1000000000,     100,      50.80,                  cache_sorted_vec, 1
+1000000000,     200,      57.74,                  cache_sorted_vec, 1
+1000000000,     500,      66.49,                  cache_sorted_vec, 1
+1000000000,    1000,      78.67,                  cache_sorted_vec, 1
+1000000000,   10000,     294.00,                  cache_sorted_vec, 1
+1000000000,   20000,     585.68,                  cache_sorted_vec, 1
+1000000000,   50000,    1566.76,                  cache_sorted_vec, 1
+1000000000,  100000,    4030.16,                  cache_sorted_vec, 4
+1000000000,  200000,    9187.21,                  cache_sorted_vec, 11
+        10,       1,     114.79,                       cache_btree, 1
+        10,       2,      76.37,                       cache_btree, 1
+        10,       5,      63.39,                       cache_btree, 1
+        10,       9,      88.86,                       cache_btree, 1
+        10,      10,     112.19,                       cache_btree, 1
+       100,       1,     113.80,                       cache_btree, 1
+       100,       2,      74.44,                       cache_btree, 1
+       100,       5,      54.21,                       cache_btree, 1
+       100,      10,      56.47,                       cache_btree, 1
+       100,      20,      71.16,                       cache_btree, 1
+       100,      50,      87.64,                       cache_btree, 1
+       100,      90,     139.51,                       cache_btree, 1
+       100,      95,     164.22,                       cache_btree, 1
+       100,     100,     259.51,                       cache_btree, 1
+       500,       1,     114.70,                       cache_btree, 1
+       500,       2,      75.15,                       cache_btree, 1
+       500,       5,      54.56,                       cache_btree, 1
+       500,      10,      54.47,                       cache_btree, 1
+       500,      20,      66.77,                       cache_btree, 1
+       500,      25,      69.28,                       cache_btree, 1
+       500,      50,      74.39,                       cache_btree, 1
+       500,     100,      80.17,                       cache_btree, 1
+       500,     200,      96.82,                       cache_btree, 1
+       500,     250,     103.77,                       cache_btree, 1
+       500,     450,     170.29,                       cache_btree, 1
+       500,     475,     204.20,                       cache_btree, 1
+       500,     500,     398.31,                       cache_btree, 1
+      1000,       1,     113.78,                       cache_btree, 1
+      1000,       2,      74.24,                       cache_btree, 1
+      1000,       5,      53.48,                       cache_btree, 1
+      1000,      10,      53.24,                       cache_btree, 1
+      1000,      20,      65.97,                       cache_btree, 1
+      1000,      50,      72.79,                       cache_btree, 1
+      1000,     100,      77.35,                       cache_btree, 1
+      1000,     200,      88.73,                       cache_btree, 1
+      1000,     500,     109.15,                       cache_btree, 1
+      1000,     900,     181.04,                       cache_btree, 1
+      1000,     950,     216.37,                       cache_btree, 1
+      1000,    1000,     489.93,                       cache_btree, 1
+   1000000,       1,     114.88,                       cache_btree, 1
+   1000000,       2,      74.14,                       cache_btree, 1
+   1000000,       5,      53.77,                       cache_btree, 1
+   1000000,      10,      52.73,                       cache_btree, 1
+   1000000,      20,      64.71,                       cache_btree, 1
+   1000000,      50,      71.63,                       cache_btree, 1
+   1000000,     100,      74.79,                       cache_btree, 1
+   1000000,     200,      82.80,                       cache_btree, 1
+   1000000,     500,      87.63,                       cache_btree, 1
+   1000000,    1000,      92.51,                       cache_btree, 1
+   1000000,   10000,     113.47,                       cache_btree, 1
+   1000000,   20000,     121.39,                       cache_btree, 1
+   1000000,   50000,     136.21,                       cache_btree, 1
+   1000000,  100000,     150.98,                       cache_btree, 1
+   1000000,  200000,     173.21,                       cache_btree, 1
+   1000000,  500000,     277.90,                       cache_btree, 1
+   1000000,  900000,     664.22,                       cache_btree, 5
+   1000000,  950000,     845.50,                       cache_btree, 8
+1000000000,       1,     115.91,                       cache_btree, 1
+1000000000,       2,      74.63,                       cache_btree, 1
+1000000000,       5,      53.70,                       cache_btree, 1
+1000000000,      10,      52.71,                       cache_btree, 1
+1000000000,      20,      64.77,                       cache_btree, 1
+1000000000,      50,      71.78,                       cache_btree, 1
+1000000000,     100,      74.94,                       cache_btree, 1
+1000000000,     200,      82.60,                       cache_btree, 1
+1000000000,     500,      87.63,                       cache_btree, 1
+1000000000,    1000,      92.89,                       cache_btree, 1
+1000000000,   10000,     112.83,                       cache_btree, 1
+1000000000,   20000,     121.81,                       cache_btree, 1
+1000000000,   50000,     134.22,                       cache_btree, 1
+1000000000,  100000,     145.51,                       cache_btree, 1
+1000000000,  200000,     160.01,                       cache_btree, 1
+1000000000,  500000,     217.11,                       cache_btree, 1
+1000000000,  900000,     290.80,                       cache_btree, 2
+1000000000,  950000,     292.63,                       cache_btree, 2
+        10,       1,     142.41,                cache_btree_sorted, 1
+        10,       2,      89.82,                cache_btree_sorted, 1
+        10,       5,      68.79,                cache_btree_sorted, 1
+        10,       9,      91.99,                cache_btree_sorted, 1
+        10,      10,     115.37,                cache_btree_sorted, 1
+       100,       1,     141.06,                cache_btree_sorted, 1
+       100,       2,      88.70,                cache_btree_sorted, 1
+       100,       5,      61.82,                cache_btree_sorted, 1
+       100,      10,      57.34,                cache_btree_sorted, 1
+       100,      20,      71.73,                cache_btree_sorted, 1
+       100,      50,      89.01,                cache_btree_sorted, 1
+       100,      90,     141.02,                cache_btree_sorted, 1
+       100,      95,     166.41,                cache_btree_sorted, 1
+       100,     100,     263.69,                cache_btree_sorted, 1
+       500,       1,     141.19,                cache_btree_sorted, 1
+       500,       2,      88.70,                cache_btree_sorted, 1
+       500,       5,      58.74,                cache_btree_sorted, 1
+       500,      10,      55.57,                cache_btree_sorted, 1
+       500,      20,      67.94,                cache_btree_sorted, 1
+       500,      25,      70.11,                cache_btree_sorted, 1
+       500,      50,      74.52,                cache_btree_sorted, 1
+       500,     100,      81.07,                cache_btree_sorted, 1
+       500,     200,     103.03,                cache_btree_sorted, 1
+       500,     250,     109.73,                cache_btree_sorted, 1
+       500,     450,     174.82,                cache_btree_sorted, 1
+       500,     475,     209.55,                cache_btree_sorted, 1
+       500,     500,     408.75,                cache_btree_sorted, 1
+      1000,       1,     141.37,                cache_btree_sorted, 1
+      1000,       2,      89.45,                cache_btree_sorted, 1
+      1000,       5,      58.70,                cache_btree_sorted, 1
+      1000,      10,      55.18,                cache_btree_sorted, 1
+      1000,      20,      67.38,                cache_btree_sorted, 1
+      1000,      50,      73.27,                cache_btree_sorted, 1
+      1000,     100,      77.82,                cache_btree_sorted, 1
+      1000,     200,      88.26,                cache_btree_sorted, 1
+      1000,     500,     109.63,                cache_btree_sorted, 1
+      1000,     900,     181.85,                cache_btree_sorted, 1
+      1000,     950,     223.10,                cache_btree_sorted, 1
+      1000,    1000,     484.66,                cache_btree_sorted, 1
+   1000000,       1,     142.62,                cache_btree_sorted, 1
+   1000000,       2,      88.60,                cache_btree_sorted, 1
+   1000000,       5,      59.25,                cache_btree_sorted, 1
+   1000000,      10,      54.68,                cache_btree_sorted, 1
+   1000000,      20,      66.34,                cache_btree_sorted, 1
+   1000000,      50,      72.04,                cache_btree_sorted, 1
+   1000000,     100,      75.29,                cache_btree_sorted, 1
+   1000000,     200,      83.79,                cache_btree_sorted, 1
+   1000000,     500,      87.25,                cache_btree_sorted, 1
+   1000000,    1000,      92.09,                cache_btree_sorted, 1
+   1000000,   10000,     112.64,                cache_btree_sorted, 1
+   1000000,   20000,     121.64,                cache_btree_sorted, 1
+   1000000,   50000,     136.53,                cache_btree_sorted, 1
+   1000000,  100000,     151.19,                cache_btree_sorted, 1
+   1000000,  200000,     174.72,                cache_btree_sorted, 1
+   1000000,  500000,     279.55,                cache_btree_sorted, 1
+   1000000,  900000,     656.62,                cache_btree_sorted, 5
+   1000000,  950000,     842.69,                cache_btree_sorted, 8
+1000000000,       1,     142.58,                cache_btree_sorted, 1
+1000000000,       2,      90.03,                cache_btree_sorted, 1
+1000000000,       5,      58.68,                cache_btree_sorted, 1
+1000000000,      10,      54.98,                cache_btree_sorted, 1
+1000000000,      20,      66.81,                cache_btree_sorted, 1
+1000000000,      50,      72.95,                cache_btree_sorted, 1
+1000000000,     100,      75.51,                cache_btree_sorted, 1
+1000000000,     200,      82.55,                cache_btree_sorted, 1
+1000000000,     500,      87.68,                cache_btree_sorted, 1
+1000000000,    1000,      92.18,                cache_btree_sorted, 1
+1000000000,   10000,     112.67,                cache_btree_sorted, 1
+1000000000,   20000,     121.84,                cache_btree_sorted, 1
+1000000000,   50000,     134.82,                cache_btree_sorted, 1
+1000000000,  100000,     145.57,                cache_btree_sorted, 1
+1000000000,  200000,     161.13,                cache_btree_sorted, 1
+1000000000,  500000,     213.24,                cache_btree_sorted, 1
+1000000000,  900000,     280.00,                cache_btree_sorted, 2
+1000000000,  950000,     287.76,                cache_btree_sorted, 2
+        10,       1,     119.19,                      cache_fisher, 1
+        10,       2,      91.08,                      cache_fisher, 1
+        10,       5,      75.39,                      cache_fisher, 1
+        10,       9,      72.96,                      cache_fisher, 1
+        10,      10,      72.25,                      cache_fisher, 1
+       100,       1,     112.95,                      cache_fisher, 1
+       100,       2,      83.27,                      cache_fisher, 1
+       100,       5,      70.18,                      cache_fisher, 1
+       100,      10,      64.26,                      cache_fisher, 1
+       100,      20,      73.03,                      cache_fisher, 1
+       100,      50,      75.51,                      cache_fisher, 1
+       100,      90,      68.09,                      cache_fisher, 1
+       100,      95,      68.25,                      cache_fisher, 1
+       100,     100,      68.66,                      cache_fisher, 1
+       500,       1,     109.15,                      cache_fisher, 1
+       500,       2,      78.91,                      cache_fisher, 1
+       500,       5,      63.17,                      cache_fisher, 1
+       500,      10,      58.34,                      cache_fisher, 1
+       500,      20,      65.67,                      cache_fisher, 1
+       500,      25,      69.23,                      cache_fisher, 1
+       500,      50,      68.33,                      cache_fisher, 1
+       500,     100,      68.36,                      cache_fisher, 1
+       500,     200,      70.04,                      cache_fisher, 1
+       500,     250,      65.08,                      cache_fisher, 1
+       500,     450,      68.08,                      cache_fisher, 1
+       500,     475,      62.73,                      cache_fisher, 1
+       500,     500,      62.28,                      cache_fisher, 1
+      1000,       1,     110.99,                      cache_fisher, 1
+      1000,       2,      80.18,                      cache_fisher, 1
+      1000,       5,      64.17,                      cache_fisher, 1
+      1000,      10,      59.29,                      cache_fisher, 1
+      1000,      20,      66.42,                      cache_fisher, 1
+      1000,      50,      67.85,                      cache_fisher, 1
+      1000,     100,      67.45,                      cache_fisher, 1
+      1000,     200,      67.59,                      cache_fisher, 1
+      1000,     500,      64.92,                      cache_fisher, 1
+      1000,     900,      67.64,                      cache_fisher, 1
+      1000,     950,      65.30,                      cache_fisher, 1
+      1000,    1000,      62.70,                      cache_fisher, 1
+   1000000,       1,     109.79,                      cache_fisher, 1
+   1000000,       2,      79.26,                      cache_fisher, 1
+   1000000,       5,      63.42,                      cache_fisher, 1
+   1000000,      10,      58.74,                      cache_fisher, 1
+   1000000,      20,      65.41,                      cache_fisher, 1
+   1000000,      50,      68.40,                      cache_fisher, 1
+   1000000,     100,      67.41,                      cache_fisher, 1
+   1000000,     200,      66.95,                      cache_fisher, 1
+   1000000,     500,      56.83,                      cache_fisher, 1
+   1000000,    1000,      56.63,                      cache_fisher, 1
+   1000000,   10000,      61.73,                      cache_fisher, 1
+   1000000,   20000,      64.85,                      cache_fisher, 1
+   1000000,   50000,      74.20,                      cache_fisher, 1
+   1000000,  100000,      88.44,                      cache_fisher, 1
+   1000000,  200000,     108.13,                      cache_fisher, 1
+   1000000,  500000,     273.01,                      cache_fisher, 1
+   1000000,  900000,     282.75,                      cache_fisher, 2
+   1000000,  950000,     281.48,                      cache_fisher, 2
+1000000000,       1,     111.25,                      cache_fisher, 1
+1000000000,       2,      79.73,                      cache_fisher, 1
+1000000000,       5,      64.25,                      cache_fisher, 1
+1000000000,      10,      58.82,                      cache_fisher, 1
+1000000000,      20,      66.02,                      cache_fisher, 1
+1000000000,      50,      68.32,                      cache_fisher, 1
+1000000000,     100,      70.31,                      cache_fisher, 1
+1000000000,     200,      67.89,                      cache_fisher, 1
+1000000000,     500,      56.96,                      cache_fisher, 1
+1000000000,    1000,      57.08,                      cache_fisher, 1
+1000000000,   10000,      62.13,                      cache_fisher, 1
+1000000000,   20000,      64.99,                      cache_fisher, 1
+1000000000,   50000,      74.43,                      cache_fisher, 1
+1000000000,  100000,      89.46,                      cache_fisher, 1
+1000000000,  200000,     108.50,                      cache_fisher, 1
+1000000000,  500000,     231.78,                      cache_fisher, 1
+1000000000,  900000,     255.52,                      cache_fisher, 2
+1000000000,  950000,     269.13,                      cache_fisher, 2
+        10,       1,     116.22,                        floyd_hash, 1
+        10,       2,      80.93,                        floyd_hash, 1
+        10,       5,      63.14,                        floyd_hash, 1
+        10,       9,      65.36,                        floyd_hash, 1
+        10,      10,      66.79,                        floyd_hash, 1
+       100,       1,     110.03,                        floyd_hash, 1
+       100,       2,      73.03,                        floyd_hash, 1
+       100,       5,      53.24,                        floyd_hash, 1
+       100,      10,      47.21,                        floyd_hash, 1
+       100,      20,      51.04,                        floyd_hash, 1
+       100,      50,      59.94,                        floyd_hash, 1
+       100,      90,      66.77,                        floyd_hash, 1
+       100,      95,      69.25,                        floyd_hash, 1
+       100,     100,      72.62,                        floyd_hash, 1
+       500,       1,     105.93,                        floyd_hash, 1
+       500,       2,      71.45,                        floyd_hash, 1
+       500,       5,      48.54,                        floyd_hash, 1
+       500,      10,      41.43,                        floyd_hash, 1
+       500,      20,      41.87,                        floyd_hash, 1
+       500,      25,      44.12,                        floyd_hash, 1
+       500,      50,      45.71,                        floyd_hash, 1
+       500,     100,      47.63,                        floyd_hash, 1
+       500,     200,      54.07,                        floyd_hash, 1
+       500,     250,      51.20,                        floyd_hash, 1
+       500,     450,      73.10,                        floyd_hash, 1
+       500,     475,      59.49,                        floyd_hash, 1
+       500,     500,      61.83,                        floyd_hash, 1
+      1000,       1,     105.86,                        floyd_hash, 1
+      1000,       2,      68.82,                        floyd_hash, 1
+      1000,       5,      47.93,                        floyd_hash, 1
+      1000,      10,      40.95,                        floyd_hash, 1
+      1000,      20,      41.54,                        floyd_hash, 1
+      1000,      50,      44.04,                        floyd_hash, 1
+      1000,     100,      44.91,                        floyd_hash, 1
+      1000,     200,      47.13,                        floyd_hash, 1
+      1000,     500,      50.80,                        floyd_hash, 1
+      1000,     900,      73.20,                        floyd_hash, 1
+      1000,     950,      60.17,                        floyd_hash, 1
+      1000,    1000,      61.82,                        floyd_hash, 1
+   1000000,       1,     106.23,                        floyd_hash, 1
+   1000000,       2,      69.59,                        floyd_hash, 1
+   1000000,       5,      48.16,                        floyd_hash, 1
+   1000000,      10,      40.88,                        floyd_hash, 1
+   1000000,      20,      41.21,                        floyd_hash, 1
+   1000000,      50,      43.07,                        floyd_hash, 1
+   1000000,     100,      43.87,                        floyd_hash, 1
+   1000000,     200,      42.09,                        floyd_hash, 1
+   1000000,     500,      35.19,                        floyd_hash, 1
+   1000000,    1000,      35.23,                        floyd_hash, 1
+   1000000,   10000,      38.45,                        floyd_hash, 1
+   1000000,   20000,      41.24,                        floyd_hash, 1
+   1000000,   50000,      48.40,                        floyd_hash, 1
+   1000000,  100000,      63.14,                        floyd_hash, 1
+   1000000,  200000,      65.41,                        floyd_hash, 1
+   1000000,  500000,     183.46,                        floyd_hash, 1
+   1000000,  900000,     248.63,                        floyd_hash, 2
+   1000000,  950000,     268.24,                        floyd_hash, 2
+1000000000,       1,     107.65,                        floyd_hash, 1
+1000000000,       2,      69.68,                        floyd_hash, 1
+1000000000,       5,      49.01,                        floyd_hash, 1
+1000000000,      10,      41.35,                        floyd_hash, 1
+1000000000,      20,      41.65,                        floyd_hash, 1
+1000000000,      50,      43.52,                        floyd_hash, 1
+1000000000,     100,      42.77,                        floyd_hash, 1
+1000000000,     200,      42.30,                        floyd_hash, 1
+1000000000,     500,      35.40,                        floyd_hash, 1
+1000000000,    1000,      35.69,                        floyd_hash, 1
+1000000000,   10000,      38.97,                        floyd_hash, 1
+1000000000,   20000,      41.06,                        floyd_hash, 1
+1000000000,   50000,      46.41,                        floyd_hash, 1
+1000000000,  100000,      60.16,                        floyd_hash, 1
+1000000000,  200000,      57.30,                        floyd_hash, 1
+1000000000,  500000,     145.90,                        floyd_hash, 1
+1000000000,  900000,     156.26,                        floyd_hash, 1
+1000000000,  950000,     164.56,                        floyd_hash, 1
+        10,       1,      59.11,                         floyd_vec, 1
+        10,       2,      41.34,                         floyd_vec, 1
+        10,       5,      31.12,                         floyd_vec, 1
+        10,       9,      33.75,                         floyd_vec, 1
+        10,      10,      34.88,                         floyd_vec, 1
+       100,       1,      53.94,                         floyd_vec, 1
+       100,       2,      34.74,                         floyd_vec, 1
+       100,       5,      24.54,                         floyd_vec, 1
+       100,      10,      23.24,                         floyd_vec, 1
+       100,      20,      27.23,                         floyd_vec, 1
+       100,      50,      32.95,                         floyd_vec, 1
+       100,      90,      34.96,                         floyd_vec, 1
+       100,      95,      34.65,                         floyd_vec, 1
+       100,     100,      34.27,                         floyd_vec, 1
+       500,       1,      50.39,                         floyd_vec, 1
+       500,       2,      30.65,                         floyd_vec, 1
+       500,       5,      19.87,                         floyd_vec, 1
+       500,      10,      16.38,                         floyd_vec, 1
+       500,      20,      16.25,                         floyd_vec, 1
+       500,      25,      16.92,                         floyd_vec, 1
+       500,      50,      22.27,                         floyd_vec, 1
+       500,     100,      32.01,                         floyd_vec, 1
+       500,     200,      44.95,                         floyd_vec, 1
+       500,     250,      49.55,                         floyd_vec, 1
+       500,     450,      54.33,                         floyd_vec, 1
+       500,     475,      53.71,                         floyd_vec, 1
+       500,     500,      54.52,                         floyd_vec, 1
+      1000,       1,      50.44,                         floyd_vec, 1
+      1000,       2,      30.80,                         floyd_vec, 1
+      1000,       5,      19.80,                         floyd_vec, 1
+      1000,      10,      16.17,                         floyd_vec, 1
+      1000,      20,      15.65,                         floyd_vec, 1
+      1000,      50,      20.39,                         floyd_vec, 1
+      1000,     100,      29.58,                         floyd_vec, 1
+      1000,     200,      42.91,                         floyd_vec, 1
+      1000,     500,      69.88,                         floyd_vec, 1
+      1000,     900,      80.31,                         floyd_vec, 1
+      1000,     950,      79.37,                         floyd_vec, 1
+      1000,    1000,      77.18,                         floyd_vec, 1
+   1000000,       1,      50.48,                         floyd_vec, 1
+   1000000,       2,      31.06,                         floyd_vec, 1
+   1000000,       5,      20.11,                         floyd_vec, 1
+   1000000,      10,      16.40,                         floyd_vec, 1
+   1000000,      20,      15.68,                         floyd_vec, 1
+   1000000,      50,      19.23,                         floyd_vec, 1
+   1000000,     100,      27.84,                         floyd_vec, 1
+   1000000,     200,      40.41,                         floyd_vec, 1
+   1000000,     500,      73.73,                         floyd_vec, 1
+   1000000,    1000,     123.95,                         floyd_vec, 1
+   1000000,   10000,    1112.46,                         floyd_vec, 1
+   1000000,   20000,    2226.92,                         floyd_vec, 1
+   1000000,   50000,    5774.11,                         floyd_vec, 2
+   1000000,  100000,   11981.27,                         floyd_vec, 10
+   1000000,  200000,   23457.75,                         floyd_vec, 14
+1000000000,       1,      50.90,                         floyd_vec, 1
+1000000000,       2,      31.41,                         floyd_vec, 1
+1000000000,       5,      20.51,                         floyd_vec, 1
+1000000000,      10,      16.87,                         floyd_vec, 1
+1000000000,      20,      16.31,                         floyd_vec, 1
+1000000000,      50,      20.21,                         floyd_vec, 1
+1000000000,     100,      28.24,                         floyd_vec, 1
+1000000000,     200,      42.41,                         floyd_vec, 1
+1000000000,     500,      74.47,                         floyd_vec, 1
+1000000000,    1000,     124.23,                         floyd_vec, 1
+1000000000,   10000,    1117.47,                         floyd_vec, 1
+1000000000,   20000,    2387.57,                         floyd_vec, 1
+1000000000,   50000,    6001.47,                         floyd_vec, 3
+1000000000,  100000,   12305.00,                         floyd_vec, 11
+1000000000,  200000,   25000.59,                         floyd_vec, 10
+        10,       1,      62.57,                  floyd_sorted_vec, 1
+        10,       2,      47.91,                  floyd_sorted_vec, 1
+        10,       5,      38.66,                  floyd_sorted_vec, 1
+        10,       9,      39.45,                  floyd_sorted_vec, 1
+        10,      10,      38.43,                  floyd_sorted_vec, 1
+       100,       1,      56.69,                  floyd_sorted_vec, 1
+       100,       2,      39.82,                  floyd_sorted_vec, 1
+       100,       5,      34.30,                  floyd_sorted_vec, 1
+       100,      10,      37.55,                  floyd_sorted_vec, 1
+       100,      20,      44.10,                  floyd_sorted_vec, 1
+       100,      50,      49.41,                  floyd_sorted_vec, 1
+       100,      90,      48.95,                  floyd_sorted_vec, 1
+       100,      95,      47.92,                  floyd_sorted_vec, 1
+       100,     100,      45.55,                  floyd_sorted_vec, 1
+       500,       1,      52.58,                  floyd_sorted_vec, 1
+       500,       2,      35.37,                  floyd_sorted_vec, 1
+       500,       5,      29.04,                  floyd_sorted_vec, 1
+       500,      10,      31.43,                  floyd_sorted_vec, 1
+       500,      20,      36.64,                  floyd_sorted_vec, 1
+       500,      25,      38.62,                  floyd_sorted_vec, 1
+       500,      50,      44.20,                  floyd_sorted_vec, 1
+       500,     100,      51.29,                  floyd_sorted_vec, 1
+       500,     200,      59.15,                  floyd_sorted_vec, 1
+       500,     250,      61.72,                  floyd_sorted_vec, 1
+       500,     450,      59.58,                  floyd_sorted_vec, 1
+       500,     475,      57.90,                  floyd_sorted_vec, 1
+       500,     500,      54.70,                  floyd_sorted_vec, 1
+      1000,       1,      52.59,                  floyd_sorted_vec, 1
+      1000,       2,      35.39,                  floyd_sorted_vec, 1
+      1000,       5,      28.98,                  floyd_sorted_vec, 1
+      1000,      10,      31.32,                  floyd_sorted_vec, 1
+      1000,      20,      37.79,                  floyd_sorted_vec, 1
+      1000,      50,      43.99,                  floyd_sorted_vec, 1
+      1000,     100,      50.54,                  floyd_sorted_vec, 1
+      1000,     200,      57.77,                  floyd_sorted_vec, 1
+      1000,     500,      68.30,                  floyd_sorted_vec, 1
+      1000,     900,      64.84,                  floyd_sorted_vec, 1
+      1000,     950,      63.22,                  floyd_sorted_vec, 1
+      1000,    1000,      59.12,                  floyd_sorted_vec, 1
+   1000000,       1,      53.00,                  floyd_sorted_vec, 1
+   1000000,       2,      35.76,                  floyd_sorted_vec, 1
+   1000000,       5,      29.38,                  floyd_sorted_vec, 1
+   1000000,      10,      31.71,                  floyd_sorted_vec, 1
+   1000000,      20,      36.79,                  floyd_sorted_vec, 1
+   1000000,      50,      43.65,                  floyd_sorted_vec, 1
+   1000000,     100,      50.23,                  floyd_sorted_vec, 1
+   1000000,     200,      56.49,                  floyd_sorted_vec, 1
+   1000000,     500,      66.65,                  floyd_sorted_vec, 1
+   1000000,    1000,      79.55,                  floyd_sorted_vec, 1
+   1000000,   10000,     293.91,                  floyd_sorted_vec, 1
+   1000000,   20000,     581.79,                  floyd_sorted_vec, 1
+   1000000,   50000,    1513.27,                  floyd_sorted_vec, 1
+   1000000,  100000,    3749.73,                  floyd_sorted_vec, 3
+   1000000,  200000,    7891.59,                  floyd_sorted_vec, 11
+1000000000,       1,      53.79,                  floyd_sorted_vec, 1
+1000000000,       2,      36.35,                  floyd_sorted_vec, 1
+1000000000,       5,      30.70,                  floyd_sorted_vec, 1
+1000000000,      10,      33.22,                  floyd_sorted_vec, 1
+1000000000,      20,      38.48,                  floyd_sorted_vec, 1
+1000000000,      50,      45.26,                  floyd_sorted_vec, 1
+1000000000,     100,      52.06,                  floyd_sorted_vec, 1
+1000000000,     200,      58.63,                  floyd_sorted_vec, 1
+1000000000,     500,      69.10,                  floyd_sorted_vec, 1
+1000000000,    1000,      81.27,                  floyd_sorted_vec, 1
+1000000000,   10000,     296.65,                  floyd_sorted_vec, 1
+1000000000,   20000,     586.23,                  floyd_sorted_vec, 1
+1000000000,   50000,    1572.10,                  floyd_sorted_vec, 1
+1000000000,  100000,    4024.70,                  floyd_sorted_vec, 4
+1000000000,  200000,    9191.95,                  floyd_sorted_vec, 11
+        10,       1,     117.98,                       floyd_btree, 1
+        10,       2,      82.90,                       floyd_btree, 1
+        10,       5,      66.26,                       floyd_btree, 1
+        10,       9,      70.69,                       floyd_btree, 1
+        10,      10,      71.96,                       floyd_btree, 1
+       100,       1,     112.29,                       floyd_btree, 1
+       100,       2,      76.01,                       floyd_btree, 1
+       100,       5,      59.40,                       floyd_btree, 1
+       100,      10,      60.11,                       floyd_btree, 1
+       100,      20,      74.63,                       floyd_btree, 1
+       100,      50,      84.58,                       floyd_btree, 1
+       100,      90,      96.68,                       floyd_btree, 1
+       100,      95,     100.08,                       floyd_btree, 1
+       100,     100,     104.31,                       floyd_btree, 1
+       500,       1,     108.79,                       floyd_btree, 1
+       500,       2,      71.97,                       floyd_btree, 1
+       500,       5,      53.22,                       floyd_btree, 1
+       500,      10,      53.47,                       floyd_btree, 1
+       500,      20,      66.39,                       floyd_btree, 1
+       500,      25,      69.63,                       floyd_btree, 1
+       500,      50,      74.19,                       floyd_btree, 1
+       500,     100,      79.87,                       floyd_btree, 1
+       500,     200,      93.37,                       floyd_btree, 1
+       500,     250,      98.22,                       floyd_btree, 1
+       500,     450,     113.28,                       floyd_btree, 1
+       500,     475,     116.23,                       floyd_btree, 1
+       500,     500,     124.41,                       floyd_btree, 1
+      1000,       1,     109.38,                       floyd_btree, 1
+      1000,       2,      72.45,                       floyd_btree, 1
+      1000,       5,      53.08,                       floyd_btree, 1
+      1000,      10,      53.16,                       floyd_btree, 1
+      1000,      20,      66.04,                       floyd_btree, 1
+      1000,      50,      73.16,                       floyd_btree, 1
+      1000,     100,      77.80,                       floyd_btree, 1
+      1000,     200,      88.11,                       floyd_btree, 1
+      1000,     500,     102.70,                       floyd_btree, 1
+      1000,     900,     119.70,                       floyd_btree, 1
+      1000,     950,     123.10,                       floyd_btree, 1
+      1000,    1000,     127.42,                       floyd_btree, 1
+   1000000,       1,     109.50,                       floyd_btree, 1
+   1000000,       2,      72.32,                       floyd_btree, 1
+   1000000,       5,      53.54,                       floyd_btree, 1
+   1000000,      10,      53.48,                       floyd_btree, 1
+   1000000,      20,      66.12,                       floyd_btree, 1
+   1000000,      50,      74.15,                       floyd_btree, 1
+   1000000,     100,      75.59,                       floyd_btree, 1
+   1000000,     200,      83.27,                       floyd_btree, 1
+   1000000,     500,      88.04,                       floyd_btree, 1
+   1000000,    1000,      93.00,                       floyd_btree, 1
+   1000000,   10000,     114.13,                       floyd_btree, 1
+   1000000,   20000,     122.89,                       floyd_btree, 1
+   1000000,   50000,     136.56,                       floyd_btree, 1
+   1000000,  100000,     152.72,                       floyd_btree, 1
+   1000000,  200000,     181.12,                       floyd_btree, 1
+   1000000,  500000,     247.93,                       floyd_btree, 1
+   1000000,  900000,     321.77,                       floyd_btree, 2
+   1000000,  950000,     328.62,                       floyd_btree, 3
+1000000000,       1,     109.95,                       floyd_btree, 1
+1000000000,       2,      72.70,                       floyd_btree, 1
+1000000000,       5,      54.01,                       floyd_btree, 1
+1000000000,      10,      54.06,                       floyd_btree, 1
+1000000000,      20,      66.87,                       floyd_btree, 1
+1000000000,      50,      75.33,                       floyd_btree, 1
+1000000000,     100,      76.02,                       floyd_btree, 1
+1000000000,     200,      84.09,                       floyd_btree, 1
+1000000000,     500,      88.54,                       floyd_btree, 1
+1000000000,    1000,      93.44,                       floyd_btree, 1
+1000000000,   10000,     115.81,                       floyd_btree, 1
+1000000000,   20000,     122.01,                       floyd_btree, 1
+1000000000,   50000,     135.28,                       floyd_btree, 1
+1000000000,  100000,     146.98,                       floyd_btree, 1
+1000000000,  200000,     160.22,                       floyd_btree, 1
+1000000000,  500000,     222.87,                       floyd_btree, 1
+1000000000,  900000,     289.20,                       floyd_btree, 2
+1000000000,  950000,     297.38,                       floyd_btree, 2
+        10,       1,     152.38,                floyd_btree_sorted, 1
+        10,       2,     101.73,                floyd_btree_sorted, 1
+        10,       5,      74.13,                floyd_btree_sorted, 1
+        10,       9,      79.24,                floyd_btree_sorted, 1
+        10,      10,      76.89,                floyd_btree_sorted, 1
+       100,       1,     148.35,                floyd_btree_sorted, 1
+       100,       2,      93.91,                floyd_btree_sorted, 1
+       100,       5,      67.45,                floyd_btree_sorted, 1
+       100,      10,      64.63,                floyd_btree_sorted, 1
+       100,      20,      79.68,                floyd_btree_sorted, 1
+       100,      50,      88.95,                floyd_btree_sorted, 1
+       100,      90,      99.31,                floyd_btree_sorted, 1
+       100,      95,     102.13,                floyd_btree_sorted, 1
+       100,     100,     106.65,                floyd_btree_sorted, 1
+       500,       1,     142.63,                floyd_btree_sorted, 1
+       500,       2,      89.82,                floyd_btree_sorted, 1
+       500,       5,      61.33,                floyd_btree_sorted, 1
+       500,      10,      58.21,                floyd_btree_sorted, 1
+       500,      20,      71.51,                floyd_btree_sorted, 1
+       500,      25,      73.86,                floyd_btree_sorted, 1
+       500,      50,      78.01,                floyd_btree_sorted, 1
+       500,     100,      83.96,                floyd_btree_sorted, 1
+       500,     200,      96.74,                floyd_btree_sorted, 1
+       500,     250,     101.18,                floyd_btree_sorted, 1
+       500,     450,     115.84,                floyd_btree_sorted, 1
+       500,     475,     118.80,                floyd_btree_sorted, 1
+       500,     500,     120.93,                floyd_btree_sorted, 1
+      1000,       1,     142.46,                floyd_btree_sorted, 1
+      1000,       2,      89.91,                floyd_btree_sorted, 1
+      1000,       5,      61.13,                floyd_btree_sorted, 1
+      1000,      10,      57.91,                floyd_btree_sorted, 1
+      1000,      20,      71.07,                floyd_btree_sorted, 1
+      1000,      50,      77.10,                floyd_btree_sorted, 1
+      1000,     100,      84.35,                floyd_btree_sorted, 1
+      1000,     200,      91.64,                floyd_btree_sorted, 1
+      1000,     500,     105.82,                floyd_btree_sorted, 1
+      1000,     900,     122.36,                floyd_btree_sorted, 1
+      1000,     950,     125.50,                floyd_btree_sorted, 1
+      1000,    1000,     129.56,                floyd_btree_sorted, 1
+   1000000,       1,     144.09,                floyd_btree_sorted, 1
+   1000000,       2,      92.11,                floyd_btree_sorted, 1
+   1000000,       5,      63.44,                floyd_btree_sorted, 1
+   1000000,      10,      60.70,                floyd_btree_sorted, 1
+   1000000,      20,      72.04,                floyd_btree_sorted, 1
+   1000000,      50,      76.13,                floyd_btree_sorted, 1
+   1000000,     100,      79.25,                floyd_btree_sorted, 1
+   1000000,     200,      86.49,                floyd_btree_sorted, 1
+   1000000,     500,      91.50,                floyd_btree_sorted, 1
+   1000000,    1000,      96.61,                floyd_btree_sorted, 1
+   1000000,   10000,     117.78,                floyd_btree_sorted, 1
+   1000000,   20000,     127.46,                floyd_btree_sorted, 1
+   1000000,   50000,     140.44,                floyd_btree_sorted, 1
+   1000000,  100000,     156.99,                floyd_btree_sorted, 1
+   1000000,  200000,     186.28,                floyd_btree_sorted, 1
+   1000000,  500000,     251.97,                floyd_btree_sorted, 1
+   1000000,  900000,     317.72,                floyd_btree_sorted, 2
+   1000000,  950000,     327.33,                floyd_btree_sorted, 3
+1000000000,       1,     144.31,                floyd_btree_sorted, 1
+1000000000,       2,      90.69,                floyd_btree_sorted, 1
+1000000000,       5,      64.62,                floyd_btree_sorted, 1
+1000000000,      10,      59.08,                floyd_btree_sorted, 1
+1000000000,      20,      72.41,                floyd_btree_sorted, 1
+1000000000,      50,      77.64,                floyd_btree_sorted, 1
+1000000000,     100,      79.70,                floyd_btree_sorted, 1
+1000000000,     200,      87.67,                floyd_btree_sorted, 1
+1000000000,     500,      92.67,                floyd_btree_sorted, 1
+1000000000,    1000,      97.19,                floyd_btree_sorted, 1
+1000000000,   10000,     117.95,                floyd_btree_sorted, 1
+1000000000,   20000,     126.73,                floyd_btree_sorted, 1
+1000000000,   50000,     139.94,                floyd_btree_sorted, 1
+1000000000,  100000,     151.57,                floyd_btree_sorted, 1
+1000000000,  200000,     166.63,                floyd_btree_sorted, 1
+1000000000,  500000,     228.96,                floyd_btree_sorted, 1
+1000000000,  900000,     299.09,                floyd_btree_sorted, 2
+1000000000,  950000,     306.46,                floyd_btree_sorted, 2
+        10,       1,      65.61,                           inplace, 1
+        10,       2,      43.74,                           inplace, 1
+        10,       5,      28.56,                           inplace, 1
+        10,       9,      25.54,                           inplace, 1
+        10,      10,      25.58,                           inplace, 1
+       100,       1,      75.98,                           inplace, 1
+       100,       2,      45.32,                           inplace, 1
+       100,       5,      27.51,                           inplace, 1
+       100,      10,      22.15,                           inplace, 1
+       100,      20,      19.80,                           inplace, 1
+       100,      50,      18.91,                           inplace, 1
+       100,      90,      17.76,                           inplace, 1
+       100,      95,      17.69,                           inplace, 1
+       100,     100,      17.88,                           inplace, 1
+       500,       1,     123.64,                           inplace, 1
+       500,       2,      67.24,                           inplace, 1
+       500,       5,      33.56,                           inplace, 1
+       500,      10,      22.00,                           inplace, 1
+       500,      20,      16.29,                           inplace, 1
+       500,      25,      15.12,                           inplace, 1
+       500,      50,      13.03,                           inplace, 1
+       500,     100,      12.89,                           inplace, 1
+       500,     200,      14.92,                           inplace, 1
+       500,     250,      16.22,                           inplace, 1
+       500,     450,      15.76,                           inplace, 1
+       500,     475,      15.83,                           inplace, 1
+       500,     500,      15.95,                           inplace, 1
+      1000,       1,     196.29,                           inplace, 1
+      1000,       2,     102.11,                           inplace, 1
+      1000,       5,      47.69,                           inplace, 1
+      1000,      10,      28.91,                           inplace, 1
+      1000,      20,      19.64,                           inplace, 1
+      1000,      50,      13.88,                           inplace, 1
+      1000,     100,      12.62,                           inplace, 1
+      1000,     200,      12.62,                           inplace, 1
+      1000,     500,      15.93,                           inplace, 1
+      1000,     900,      15.63,                           inplace, 1
+      1000,     950,      15.69,                           inplace, 1
+      1000,    1000,      15.78,                           inplace, 1
+   1000000,       1, 3104306.25,                           inplace, 1
+   1000000,       2, 1637171.25,                           inplace, 1
+   1000000,       5,  629303.56,                           inplace, 1
+   1000000,      10,  312934.38,                           inplace, 1
+   1000000,      20,  156865.72,                           inplace, 1
+   1000000,      50,   65614.68,                           inplace, 1
+   1000000,     100,   32536.39,                           inplace, 1
+   1000000,     200,   15766.27,                           inplace, 1
+   1000000,     500,    6263.94,                           inplace, 1
+   1000000,    1000,    3187.52,                           inplace, 1
+   1000000,   10000,     369.46,                           inplace, 1
+   1000000,   20000,     200.92,                           inplace, 1
+   1000000,   50000,     108.76,                           inplace, 1
+   1000000,  100000,      76.30,                           inplace, 1
+   1000000,  200000,      54.69,                           inplace, 1
+   1000000,  500000,      40.31,                           inplace, 1
+   1000000,  900000,      30.32,                           inplace, 1
+   1000000,  950000,      29.04,                           inplace, 1
+        10,       1,     233.16,                       inplace_rev, 1
+        10,       2,     101.09,                       inplace_rev, 1
+        10,       5,      28.23,                       inplace_rev, 1
+        10,       9,       7.58,                       inplace_rev, 1
+        10,      10,       4.78,                       inplace_rev, 1
+       100,       1,    1718.12,                       inplace_rev, 1
+       100,       2,     846.82,                       inplace_rev, 1
+       100,       5,     327.33,                       inplace_rev, 1
+       100,      10,     154.99,                       inplace_rev, 1
+       100,      20,      69.07,                       inplace_rev, 1
+       100,      50,      17.93,                       inplace_rev, 1
+       100,      90,       2.53,                       inplace_rev, 1
+       100,      95,       1.53,                       inplace_rev, 1
+       100,     100,       0.73,                       inplace_rev, 1
+       500,       1,    7791.45,                       inplace_rev, 1
+       500,       2,    3865.94,                       inplace_rev, 1
+       500,       5,    1541.61,                       inplace_rev, 1
+       500,      10,     761.63,                       inplace_rev, 1
+       500,      20,     374.39,                       inplace_rev, 1
+       500,      25,     294.45,                       inplace_rev, 1
+       500,      50,     139.95,                       inplace_rev, 1
+       500,     100,      61.30,                       inplace_rev, 1
+       500,     200,      22.62,                       inplace_rev, 1
+       500,     250,      16.02,                       inplace_rev, 1
+       500,     450,       1.51,                       inplace_rev, 1
+       500,     475,       0.87,                       inplace_rev, 1
+       500,     500,       0.31,                       inplace_rev, 1
+      1000,       1,   15432.65,                       inplace_rev, 1
+      1000,       2,    7704.80,                       inplace_rev, 1
+      1000,       5,    3070.32,                       inplace_rev, 1
+      1000,      10,    1526.85,                       inplace_rev, 1
+      1000,      20,     755.33,                       inplace_rev, 1
+      1000,      50,     293.84,                       inplace_rev, 1
+      1000,     100,     138.06,                       inplace_rev, 1
+      1000,     200,      61.06,                       inplace_rev, 1
+      1000,     500,      15.68,                       inplace_rev, 1
+      1000,     900,       1.46,                       inplace_rev, 1
+      1000,     950,       0.81,                       inplace_rev, 1
+      1000,    1000,       0.26,                       inplace_rev, 1
+   1000000,       1, 29016594.00,                       inplace_rev, 1
+   1000000,       2, 14538677.00,                       inplace_rev, 1
+   1000000,       5, 5802921.00,                       inplace_rev, 1
+   1000000,      10, 2853993.75,                       inplace_rev, 1
+   1000000,      20, 1501596.75,                       inplace_rev, 1
+   1000000,      50,  575524.25,                       inplace_rev, 1
+   1000000,     100,  288239.09,                       inplace_rev, 1
+   1000000,     200,  144491.28,                       inplace_rev, 1
+   1000000,     500,   57157.14,                       inplace_rev, 1
+   1000000,    1000,   28775.67,                       inplace_rev, 1
+   1000000,   10000,    2864.88,                       inplace_rev, 1
+   1000000,   20000,    1430.58,                       inplace_rev, 1
+   1000000,   50000,     560.55,                       inplace_rev, 1
+   1000000,  100000,     272.14,                       inplace_rev, 1
+   1000000,  200000,     128.75,                       inplace_rev, 1
+   1000000,  500000,      40.51,                       inplace_rev, 1
+   1000000,  900000,       8.84,                       inplace_rev, 1
+   1000000,  950000,       6.18,                       inplace_rev, 1
+        10,       1,      86.67,                         pitdicker, 1
+        10,       2,      52.20,                         pitdicker, 1
+        10,       5,      31.09,                         pitdicker, 1
+        10,       9,      17.01,                         pitdicker, 1
+        10,      10,      14.62,                         pitdicker, 1
+       100,       1,      85.59,                         pitdicker, 1
+       100,       2,      55.82,                         pitdicker, 1
+       100,       5,      41.77,                         pitdicker, 1
+       100,      10,      47.20,                         pitdicker, 1
+       100,      20,      42.39,                         pitdicker, 1
+       100,      50,      24.61,                         pitdicker, 1
+       100,      90,      10.41,                         pitdicker, 1
+       100,      95,       9.16,                         pitdicker, 1
+       100,     100,       8.01,                         pitdicker, 1
+       500,       1,      86.11,                         pitdicker, 1
+       500,       2,      57.14,                         pitdicker, 1
+       500,       5,      39.12,                         pitdicker, 1
+       500,      10,      34.43,                         pitdicker, 1
+       500,      20,      35.67,                         pitdicker, 1
+       500,      25,      37.52,                         pitdicker, 1
+       500,      50,      52.42,                         pitdicker, 1
+       500,     100,      42.14,                         pitdicker, 1
+       500,     200,      28.89,                         pitdicker, 1
+       500,     250,      24.37,                         pitdicker, 1
+       500,     450,       9.68,                         pitdicker, 1
+       500,     475,       8.45,                         pitdicker, 1
+       500,     500,       7.30,                         pitdicker, 1
+      1000,       1,      85.54,                         pitdicker, 1
+      1000,       2,      54.99,                         pitdicker, 1
+      1000,       5,      38.83,                         pitdicker, 1
+      1000,      10,      33.32,                         pitdicker, 1
+      1000,      20,      32.42,                         pitdicker, 1
+      1000,      50,      39.84,                         pitdicker, 1
+      1000,     100,      54.36,                         pitdicker, 1
+      1000,     200,      42.20,                         pitdicker, 1
+      1000,     500,      23.93,                         pitdicker, 1
+      1000,     900,       9.53,                         pitdicker, 1
+      1000,     950,       8.29,                         pitdicker, 1
+      1000,    1000,       7.16,                         pitdicker, 1
+   1000000,       1,      85.52,                         pitdicker, 1
+   1000000,       2,      54.95,                         pitdicker, 1
+   1000000,       5,      38.32,                         pitdicker, 1
+   1000000,      10,      32.45,                         pitdicker, 1
+   1000000,      20,      29.09,                         pitdicker, 1
+   1000000,      50,      27.11,                         pitdicker, 1
+   1000000,     100,      27.44,                         pitdicker, 1
+   1000000,     200,      26.55,                         pitdicker, 1
+   1000000,     500,      27.14,                         pitdicker, 1
+   1000000,    1000,      30.23,                         pitdicker, 1
+   1000000,   10000,      42.10,                         pitdicker, 1
+   1000000,   20000,      43.35,                         pitdicker, 1
+   1000000,   50000,      46.87,                         pitdicker, 1
+   1000000,  100000,      59.66,                         pitdicker, 1
+   1000000,  200000,      42.31,                         pitdicker, 1
+   1000000,  500000,      27.08,                         pitdicker, 1
+   1000000,  900000,      12.79,                         pitdicker, 1
+   1000000,  950000,      11.75,                         pitdicker, 1
+1000000000,       1,      86.17,                         pitdicker, 1
+1000000000,       2,      54.96,                         pitdicker, 1
+1000000000,       5,      38.60,                         pitdicker, 1
+1000000000,      10,      32.31,                         pitdicker, 1
+1000000000,      20,      29.25,                         pitdicker, 1
+1000000000,      50,      27.13,                         pitdicker, 1
+1000000000,     100,      26.60,                         pitdicker, 1
+1000000000,     200,      26.26,                         pitdicker, 1
+1000000000,     500,      25.95,                         pitdicker, 1
+1000000000,    1000,      25.90,                         pitdicker, 1
+1000000000,   10000,      26.36,                         pitdicker, 1
+1000000000,   20000,      27.82,                         pitdicker, 1
+1000000000,   50000,      33.71,                         pitdicker, 1
+1000000000,  100000,      38.52,                         pitdicker, 1
+1000000000,  200000,      40.89,                         pitdicker, 1
+1000000000,  500000,      44.52,                         pitdicker, 1
+1000000000,  900000,      44.64,                         pitdicker, 1
+1000000000,  950000,      44.80,                         pitdicker, 1
